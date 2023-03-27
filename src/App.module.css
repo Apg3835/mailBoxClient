@@ -6,6 +6,19 @@
   height: 40vmin;
   pointer-events: none;
 }
+.container {
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+.left {
+  margin-right: 1rem;
+}
+
+.right {
+  margin-top: 6rem;
+  margin-right:1rem;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
